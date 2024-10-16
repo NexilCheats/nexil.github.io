@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SniperXMods #1 External</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a1c2e;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            background-color: #0a1c2e;
+            height: 100vh;
+            background-image: url('path_to_background_image');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            color: #fff;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .hero-content {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+        .hero-content h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+        .hero-content a {
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            margin: 0 10px;
+            color: white;
+            background-color: #1465cf;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .hero-content a:hover {
+            background-color: #104da4;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #081421;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="path_to_logo" alt="Logo" style="height: 50px;">
+        </div>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">DOCUMENTATION</a>
+            <a href="#">FEATURES</a>
+            <a href="#">PURCHASE</a>
+            <a href="#">DISCORD</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Let the Mods Begin</h1>
+            <p>Brought to you by the Nexils Development Team</p>
+            <a href="https://cdn.discordapp.com/attachments/1295277551698055209/1295287320685318184/NLHybrid.rar?ex=67101412&is=670ec292&hm=bff9180555468eb08f32810fb51d6a65848723919124cf17fa893bb89ea924b3&" target="_blank">Download</a>
+            <a href="https://discord.gg/NAg6vKsfvK" target="_blank">Get Key</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NexilMods. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
